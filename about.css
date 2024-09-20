@@ -1,0 +1,111 @@
+/* General page styles */
+body {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+	color: #333;
+	background-color: #f9f9f9;
+	margin: 0;
+	padding: 0;
+  }
+  
+  h1, h2 {
+	font-weight: 700;
+	color: #444;
+  }
+  
+  p {
+	font-size: 1.15rem;
+	color: #666;
+  }
+  
+  /* About section styles */
+  #about-section {
+	background-color: #ffffff;
+	padding: 60px 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	margin-bottom: 40px;
+  }
+  
+  #about-section h1 {
+	font-size: 2.5rem;
+	color: #444;
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  #about-section p {
+	font-size: 1.2rem;
+	line-height: 1.75;
+	color: #555;
+	margin-bottom: 20px;
+	text-align: justify;
+  }
+  
+  /* Footer styles */
+  footer {
+	background-color: #f8f9fa;
+	padding: 40px 0;
+	border-top: 2px solid #eee;
+  }
+  
+  footer img {
+	max-width: 120px;
+  }
+  
+  footer ul.nav {
+	padding: 0;
+  }
+  
+  footer ul.nav .nav-item .nav-link {
+	color: #555;
+	font-size: 1.1rem;
+	margin: 0 10px;
+	transition: color 0.3s ease;
+  }
+  
+  footer ul.nav .nav-link:hover {
+	color: #007bff;
+  }
+  
+  footer .nav .btn-light {
+	background-color: #98DED9;
+	border: none;
+	font-size: 1.25rem;
+	margin-left: 5px;
+  }
+  
+  footer .nav .btn-light i {
+	font-size: 1.25rem;
+  }
+  
+  footer .nav .btn-light:hover {
+	background-color: #86c7c1;
+  }
+  
+  footer .copyright {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 0.9rem;
+	color: #999;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+	#about-section {
+	  padding: 40px 15px;
+	}
+  
+	#about-section h1 {
+	  font-size: 2rem;
+	}
+  
+	#about-section p {
+	  font-size: 1.1rem;
+	}
+  
+	footer .nav .nav-link {
+	  font-size: 1rem;
+	}
+  }
+  
