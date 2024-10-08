@@ -66,14 +66,15 @@ a:hover {
 }
 
 .hero-title {
-	margin-top: -30px;
+
 	background-color: #FCFAFA;
 	border-radius: 150px;
 	padding: 25px 60px;
 	padding-right: 10px;
 	margin-left: 60px;
 	margin-top: 50px;
-	font-family: 'Playfair display'
+	font-family: 'Playfair display';
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
 }
 
 .hero-title h1 {
@@ -93,7 +94,7 @@ a:hover {
 
 /* Adjusting the author-meta position */
 .hero-meta {
-    margin-top: 130px; /* You can tweak this value */
+    margin-top: 160px; /* You can tweak this value */
 }
 
 .hero-meta p {
@@ -216,6 +217,7 @@ footer a {
 }
 
 #content p {
+	text-align: justify;
 	font-size: 18px;
 	line-height: 30px;
 }
